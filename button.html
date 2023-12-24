@@ -15,13 +15,30 @@
         width: 500;
         height: 500;
         padding: 20px;
-        border: 1px solid #1e1c1c;
-        border-radius: 20px;
-        background-color: #121a1d;
+        border: 1px solid #920505;
+        border-radius: 40px; 
+        background: linear-gradient(45deg, #3498db, #2ecc71, #9c23d4); 
         margin: 100px;
         position: absolute;
         left: 300px;
       }
+
+      .input1{
+        width: 400;
+        height: 50;
+        position: absolute;
+        left:50px;
+        top: 150px;
+      }
+
+      .input2{
+        width: 400;
+        height: 50;
+        position: absolute;
+        left:50px;
+        top: 225px;
+      }
+
       .button{
       padding: 20px 30px;
       font-size: 24px;
@@ -56,11 +73,12 @@
   </head>
   <body>
      
-
+  
    <div class="box">
     
     <h1 class="h1" >Welcome</h1>
-
+    <input class="input1" type="text" placeholder="Enter Your Name"/>
+    <input class="input2" type="text" placeholder="Enter Your Number"/>
     <button class="button" onclick=redirectToAnotherPage()>Enter Marketplace</button>
 
    </div>   
