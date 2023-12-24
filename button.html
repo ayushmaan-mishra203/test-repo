@@ -2,10 +2,30 @@
   <head>
     <title>My Html page</title>
     <style>
+
+      .h1{
+
+        position:relative;
+        left: 150px;
+       
+
+      }
+
+      .box{
+        width: 500;
+        height: 500;
+        padding: 20px;
+        border: 1px solid #1e1c1c;
+        border-radius: 20px;
+        background-color: #121a1d;
+        margin: 100px;
+        position: absolute;
+        left: 300px;
+      }
       .button{
       padding: 20px 30px;
       font-size: 24px;
-      text-allign: center;
+      text-align: center;
       cursor: pointer;
       outline: none;
         color: #fff;
@@ -13,6 +33,10 @@
         border: none;
         border-radius: 20px;
         box-shadow: 0 5px #999;
+
+        position:relative;
+        left: 100px;
+
      }
       .button:hover {background-color:#3e8e41}
       
@@ -30,8 +54,15 @@
       </script>
   </head>
   <body>
-   <h1 style="position: absolute; top: 325px; left: 50px;">click this button --></h1>            
-    <Button  style="position: absolute; top: 300px; left: 400px;" class="button" onclick="redirectToAnotherPage()">click here</button>
+     
+
+   <div class="box">
     
+    <h1 class="h1" >Welcome</h1>
+
+    <button class="button" onclick=redirectToAnotherPage()>Enter Marketplace</button>
+
+   </div>   
+  </body>
     
 </html>
