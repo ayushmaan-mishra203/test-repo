@@ -11,6 +11,13 @@
 
       }
 
+      .text{
+        position: absolute;
+        top: 484px;
+        left: 127px;
+
+      }
+
       .box{
         width: 500;
         height: 500;
@@ -21,6 +28,16 @@
         margin: 100px;
         position: absolute;
         left: 300px;
+      }
+
+      .textbutton{
+        cursor: pointer;
+        color: #ff0000;
+        text-decoration: underline;
+        position: absolute;
+        top: 500px;
+        left: 300px;
+        font-size: large;
       }
 
       .input1{
@@ -60,7 +77,8 @@
         left: 125px;
 
      }
-      .button:hover {background-color:#3e8e41}
+      .button:hover {background-color:#3e8e41;}
+      .textbutton:hover{color: #fb0000;}
       
       .button:active{
         background-color: #3e8e41;
@@ -80,10 +98,12 @@
   
    <div class="box">
     
-    <h1 class="h1" >Welcome</h1>
-    <input class="input1" type="text" placeholder="Enter Your Name"/>
-    <input class="input2" type="text" placeholder="Enter Your Number"/>
+    <h1 class="h1" >Login</h1>
+    <input class="input1" type="text" placeholder="Username"/>
+    <input class="input2" type="text" placeholder="Password"/>
     <button class="button" onclick=redirectToAnotherPage()>Enter Marketplace</button>
+    <span class="textbutton">Create An Account</span>
+    <h4 class="text">Dont have an account??</h4>
 
    </div>   
   </body>
