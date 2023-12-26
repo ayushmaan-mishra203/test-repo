@@ -91,6 +91,10 @@
         function redirectToAnotherPage(){
           window.location.href='page.html';
         }
+
+        function createAccountPage(){
+          window.location.href='signup.html';
+        }
       </script>
   </head>
   <body>
@@ -102,7 +106,7 @@
     <input class="input1" type="text" placeholder="Username"/>
     <input class="input2" type="text" placeholder="Password"/>
     <button class="button" onclick=redirectToAnotherPage()>Enter Marketplace</button>
-    <span class="textbutton">Create An Account</span>
+    <span class="textbutton" onclick=createAccountPage()>Create An Account</span>
     <h4 class="text">Dont have an account??</h4>
 
    </div>   
