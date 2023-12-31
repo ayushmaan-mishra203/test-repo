@@ -1,0 +1,126 @@
+<html>
+  <head>
+    <title>My Html page</title>
+    <style>
+
+      .h1{
+
+        position:relative;
+        left: 185px;
+       
+
+      }
+
+      .text{
+        position: absolute;
+        top: 484px;
+        left: 127px;
+
+      }
+
+      .box{
+        width: 500;
+        height: 500;
+        padding: 20px;
+        border: 1px solid #920505;
+        border-radius: 40px; 
+        background: linear-gradient(45deg, #3498db, #2ecc71, #9c23d4); 
+        margin: 100px;
+        position: absolute;
+        left: 300px;
+      }
+
+      .textbutton{
+        cursor: pointer;
+        color: #ff0000;
+        text-decoration: underline;
+        position: absolute;
+        top: 500px;
+        left: 310px;
+        font-size: large;
+      }
+
+      .input1{
+        padding: 20px 30px;
+        border-radius: 10px;
+        width: 400;
+        height: 50;
+        position: absolute;
+        left:50px;
+        top: 150px;
+      }
+
+      .input2{
+        padding: 20px 30px;
+        border-radius: 10px;
+        width: 400;
+        height: 50;
+        position: absolute;
+        left:50px;
+        top: 225px;
+      }
+    
+      .input3{
+        padding: 20px 30px;
+        border-radius: 10px;
+        width: 400;
+        height: 50;
+        position: absolute;
+        left:50px;
+        top: 300px;
+      }
+
+      .button{
+      padding: 20px 30px;
+      font-size: 24px;
+      text-align: center;
+      cursor: pointer;
+      outline: none;
+        color: #fff;
+        background-color: #04AA6D;
+        border: none;
+        border-radius: 20px;
+        box-shadow: 0 5px #999;
+
+        position:relative;
+        top:310px;
+        left: 125px;
+
+     }
+      .button:hover {background-color:#3e8e41;}
+      .textbutton:hover{color: #fb0000;}
+      
+      .button:active{
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translate(4px);
+      }
+      </style>
+
+      <script>
+        function redirectToAnotherPage(){
+          window.location.href='page.html';
+        }
+
+        function loginAccountPage(){
+          window.location.href='login.html';
+        }
+      </script>
+  </head>
+  <body>
+     
+  
+   <div class="box">
+    
+    <h1 class="h1" >Signup</h1>
+    <input class="input1" type="text" placeholder="Username"/>
+    <input class="input2" type="text" placeholder="Create password"/>
+    <input class="input3" type="text" placeholder="Confirm password">
+    <button class="button" onclick=redirectToAnotherPage()>Enter Marketplace</button>
+    <span class="textbutton" onclick=loginAccountPage()>Login</span>
+    <h4 class="text">Already have an Account?</h4>
+
+   </div>   
+  </body>
+    
+</html>
