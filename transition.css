@@ -1,0 +1,19 @@
+#smoothbutton{
+
+    padding: 10px 20px;
+    font-size: large;
+    background-color: aquamarine;
+    color: aqua;
+    border:none;
+    cursor:pointer;
+    transition: background-color 0.3s ease;
+
+    position: absolute;
+    left: 650px;
+    top: 400px;
+
+}
+
+#smoothbutton:hover{
+    background-color: rgb(43, 104, 104);
+}
